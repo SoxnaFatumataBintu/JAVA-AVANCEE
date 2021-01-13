@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="366.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classe">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Pane layoutX="82.0" layoutY="23.0" prefHeight="448.0" prefWidth="643.0" style="-fx-background-color: green;">
+         <children>
+            <TableView layoutX="14.0" layoutY="104.0" prefHeight="198.0" prefWidth="261.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="id" />
+                  <TableColumn prefWidth="75.0" text="Nom" />
+                  <TableColumn prefWidth="75.0" text="Grade" />
+               </columns>
+            </TableView>
+            <TableView layoutX="352.0" layoutY="180.0" prefHeight="198.0" prefWidth="261.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="libelle" />
+                  <TableColumn prefWidth="75.0" text="Classe" />
+               </columns>
+            </TableView>
+            <Text layoutX="57.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="liste des Professeurs">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="432.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modules Enseignes">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="275.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Professeur">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="352.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classe" />
+            <ComboBox layoutX="424.0" layoutY="57.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
